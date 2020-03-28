@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61ACA5BB242F4767005DFBDC /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61ACA5BA242F4767005DFBDC /* GoogleService-Info-2.plist */; };
+		61ACA5BB242F4767005DFBDC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61ACA5BA242F4767005DFBDC /* GoogleService-Info.plist */; };
 		61F00325242E5C6B00700162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F00324242E5C6B00700162 /* AppDelegate.swift */; };
 		61F00327242E5C6B00700162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F00326242E5C6B00700162 /* SceneDelegate.swift */; };
 		61F00329242E5C6B00700162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F00328242E5C6B00700162 /* ViewController.swift */; };
@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		128D48E913D1F3A277E38987 /* Pods-firebasecrashcourse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasecrashcourse.release.xcconfig"; path = "Target Support Files/Pods-firebasecrashcourse/Pods-firebasecrashcourse.release.xcconfig"; sourceTree = "<group>"; };
-		61ACA5BA242F4767005DFBDC /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		61ACA5BA242F4767005DFBDC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		61F00321242E5C6B00700162 /* firebasecrashcourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebasecrashcourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F00324242E5C6B00700162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61F00326242E5C6B00700162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 				61F00324242E5C6B00700162 /* AppDelegate.swift */,
 				61F00326242E5C6B00700162 /* SceneDelegate.swift */,
 				61F00328242E5C6B00700162 /* ViewController.swift */,
-				61ACA5BA242F4767005DFBDC /* GoogleService-Info-2.plist */,
+				61ACA5BA242F4767005DFBDC /* GoogleService-Info.plist */,
 				61F0032A242E5C6B00700162 /* Main.storyboard */,
 				61F0032D242E5C8D00700162 /* Assets.xcassets */,
 				61F0032F242E5C8D00700162 /* LaunchScreen.storyboard */,
@@ -156,7 +156,7 @@
 			files = (
 				61F00331242E5C8D00700162 /* LaunchScreen.storyboard in Resources */,
 				61F0032E242E5C8D00700162 /* Assets.xcassets in Resources */,
-				61ACA5BB242F4767005DFBDC /* GoogleService-Info-2.plist in Resources */,
+				61ACA5BB242F4767005DFBDC /* GoogleService-Info.plist in Resources */,
 				61F0032C242E5C6B00700162 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AZ.firebasecrashcourse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.annazislina.firebasecrashcourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -383,7 +383,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = AZ.firebasecrashcourse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.annazislina.firebasecrashcourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
